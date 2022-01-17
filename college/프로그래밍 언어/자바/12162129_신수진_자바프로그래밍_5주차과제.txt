@@ -1,0 +1,156 @@
+
+from tkinter import filedialog
+import tkinter as tk
+from PIL import ImageTk, Image
+import os
+import sys
+import threading
+
+
+class Node:
+    def __init__(self, item=None):
+        self.item = item
+        self.link = None
+
+
+class CircleLinkedList:
+    def __init__(self):
+        self.root = Node()
+
+    def append(self, item):
+        newNode = Node(item)
+        curNode = self.root
+        if curNode.item == None:
+            self.root = newNode
+            newNode.link = self.root
+            self.current = self.root
+        else:
+            while curNode.link != self.root:
+                curNode = curNode.link
+            curNode.link = newNode
+            newNode.link = self.root
+            self.tail = newNode
+
+    def print(self):
+        curNode = self.root
+        print(curNode.item)
+        while curNode.link != self.root:
+            curNode = curNode.link
+            print(curNode.item)
+
+    def listSize(self):
+        curNode = self.root
+        cnt = 1
+        while curNode.link != self.root:
+            curNode = curNode.link
+            cnt += 1
+        return cnt
+
+    def setCurrent(self, item):
+        for i in range(self.listSize()):
+            if self.current.item != item:
+                self.current = self.current.link
+        return self.current.item
+
+    def getCurrent(self):
+        return self.curren.item
+
+    def moveNext(self):
+        self.current = self.current.link
+        print("현재 위치는 ", self.current.item, "입니다.")
+        return self.current.item
+
+    def insert(self, item1, item2):
+        self.setCurrent(item1)
+        newNode = Node(item2)
+        _tmp = self.current.link
+        self.current.link = newNode
+        newNode.link = _tmp
+        if item1 == self.tail.item:
+            self.tail = newNode
+
+    def delete(self, item):
+        delYN = False
+        curNode = self.root
+        if curNode.item == item:
+            self.root = self.root.link
+            self.tail.link = self.root
+            delYN = True
+        else:
+            while curNode.link != self.root:
+                preNode = curNode
+                curNode = curNode.link
+                if curNode.item == item:
+                    preNode.link = curNode.link
+                    if curNode == self.tail:
+                        self.tail = preNode
+            delYN =True
+        if delYN == False: print("delete failed")
+
+class Window:
+    def __init__(self):
+        self.window=tk.Tk()
+        self.window.title("Image Viewer")
+        self.window.geometry("640x480")
+        self.window.resizable(False, False)
+
+        menubar = tk.Menu(self.window)
+        menu_1 = tk.Menu(menubar, tearoff=0)
+        menu_2 = tk.Menu(menubar, tearoff=0)
+        menu_1.bind('<<MenuSelect>>')
+        menu_2.bind('<<MenuSelect>>')
+
+        menu_1.add_command(label="Open", command=self.dirSelect)
+        menu_1.add_command(label="Close", command=self.close)
+        menu_2.add_command(label="next", command=self.next)
+        menubar.add_cascade(label="Dir", menu=menu_1)
+        menubar.add_cascade(label="Image", menu=menu_2)
+
+        self.window.config(menu=menubar)
+
+        self.imgLabel = tk.Label(self.window, width=400, height=400, relief='solid')
+        self.imgLabel.pack()
+        self.window.mainloop()
+
+    def close(self):
+        self.window.quit()
+        self.window.destroy()
+
+    def dirSelect(self):
+        global pngLists
+        selDir = filedialog.askopenfilename(initialdir="/", title="Select directory")
+        print(selDir)
+        pngfiles = [x for x in os.listdir(selDir) if x.endswith(".jpg")]
+        print(pngfiles)
+
+        pngLists= CircleLinkedList()
+        for fname in pngfiles:
+            pngLists.append(selDir + "/" + fname)
+        pngList.print()
+        selFile = pngLists.getCurrent()
+        sel.fileSelect(selFile)
+
+    def fileSeclect(self, selFile):
+        print(selFIle)
+        self.image = image.open(selFile)
+        print(self, image.size[0], self.image.size[1])
+        # 해당 이미지의 크기를 400, 400으로 resize 한다.
+        if self.image.size[1] > self.image.size[0]:
+            hSize = int((400 * self.image.size[0] / self.image.size[1]))
+            vSize = 400
+        else:
+            hSize = 400
+            vSize = int((400 * self.image.size[1] / self.image.size[0]))
+
+        self.image = self.image.resize((hSize,vSize), Image.ANTIALIAS)
+        self.image = ImageTk.PhotoImage(self.image)
+        self.imgLabel.config(image = self.image)
+
+    def next(self):
+        selFile = pngLists.moveNext()
+        self.fileSelect(selFile)
+        threading.Timer(3, self.next).start()
+
+print(sys.path)
+
+a = Window()

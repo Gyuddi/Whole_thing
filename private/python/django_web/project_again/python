@@ -1,0 +1,4 @@
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, pybo, sessions
+Running migrations:
+  Applying pybo.0001_initial... OK
