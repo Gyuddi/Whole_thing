@@ -1,0 +1,9 @@
+my_list=[]
+my_list.append("한규현")
+print(my_list)
+my_list.append([1,2,3])
+my_list.append(6)            
+print(my_list)
+print(my_list[0:2])
+my_list[1]="바보"
+print(my_list)
