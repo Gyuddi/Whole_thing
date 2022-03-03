@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 public class If {
     public static void main(String[] args) {
         String str = "";
@@ -46,4 +46,3 @@ public class If {
     }
 
 }
->>>>>>> 58110c72042666d64e8117b99a8afe7db8511558

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -74,5 +74,5 @@ public class Loop {
             System.out.println(a);
         }
     }
->>>>>>> 58110c72042666d64e8117b99a8afe7db8511558
+
 }

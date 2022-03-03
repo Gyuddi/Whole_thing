@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03efceb3-c1ad-4bf4-8fb6-fd60b17919e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jamp2java_again.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaekJoon/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaekJoon/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaekJoon/src/Q4344.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boostcourse/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boostcourse/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boostcourse/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boostcourse/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boostcourse/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boostcourse/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boostcourse/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Array_List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Barkable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/BarkablePredator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Bouncer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Bronze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/FoolException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Formating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Gold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/GuGu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Hash_Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/HeavyWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/HouseDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/If.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/In_output.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Lion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Loop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/MaxLimitCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Mineral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/MineralCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Object_Or.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/OddException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Predator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Silver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Singleton_sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/String_B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Syn_pb_q10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Synthesis_Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Thread_Sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Thread_practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/UpgradeCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/ZooKeeper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/change_type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/exception_sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/file_inout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/get_cipher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/helloworld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/house/HouseHan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/house/HouseKim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/house/person/HanGyuHyun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/inherit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/lamda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/lamda_practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/paging.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/practice1$CoffeeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/practice1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/practice2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/practice3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/practice4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/static_var.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/stream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jamp2java_again/sum_3and5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/If.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_B.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24SD47rYgbfvMaLHascrp7uyqrK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="String_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String_B" />
+      <module name="jamp2java_again" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.String_B" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03efceb3-c1ad-4bf4-8fb6-fd60b17919e9" name="Changes" comment="" />
+      <created>1643614924636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643614924636</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
